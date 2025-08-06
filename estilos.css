@@ -1,0 +1,97 @@
+
+
+
+
+.titulo{
+    font-family: 'Time New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    
+    
+}
+
+#titulo_principal{
+    color: rgb(255, 255, 255);
+    padding: auto;
+    border: 2px solid rgb(0, 0, 0) ;
+    background-color: black;
+    width: 40vw;
+    margin: auto;
+    text-align: center;
+}
+
+.lista {
+    list-style-type:disc;
+    margin-left: 2em;   
+    color: black;
+    font-size: 1em;
+}
+
+.contacto{
+    color: rgb(255, 255, 255);
+    padding: auto;
+    border: 2px solid rgb(0, 0, 0) ;
+    background-color: black;
+    width: fit-content;
+   
+}
+
+img{
+    width: 25%;
+    height: 25%;
+    border-radius: 12%;
+}
+
+.cards{
+    border: 2px solid rgb(0, 0, 0);
+    width: 8em;
+    height: 8em;
+    border-radius: 12%;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#img_cards{
+    width: 5em;
+    height: 5em;
+    border-radius: 12%;
+    margin: auto;
+        
+}
+
+#redes{
+    width: 60vw;
+    padding: auto;
+    margin: auto;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 6vw;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+#img_yt{
+    width: 5em;
+    height: 3em;
+    border-radius: 12%;
+    margin: auto;
+    margin-top: 1em;
+}
+
+.cards:hover{
+    background-color: rgb(228, 124, 124);
+}
+
+#cards_contenedor{
+    width: 60vw;
+    margin: auto;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 6vw;
+    padding: auto;
+    display: flex;
+    justify-content: space-around;
+}
+    

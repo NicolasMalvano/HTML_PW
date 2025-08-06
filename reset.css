@@ -1,0 +1,68 @@
+/* reset.css */
+
+/* 1. Elimina márgenes, paddings y bordes predeterminados */
+* {
+  margin: 1px;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+/* 2. Elimina listas con estilo */
+ol, ul {
+  list-style: none;
+}
+
+/* 3. Normaliza elementos de encabezado y texto */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, figure,
+figcaption, dl, dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* 4. Establece una línea base común para tipografías */
+body {
+  line-height: 1.5;
+  font-family: sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+/* 5. Elimina decoración de enlaces */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 6. Tablas sin espaciado adicional */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 7. Imágenes sin bordes ni desplazamientos */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* 8. Formularios sin estilos predeterminados molestos */
+input, button, textarea, select {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+/* 9. Botones sin bordes ni fondos */
+button {
+  cursor: pointer;
+}
+
+/* 10. HTML5 display-role reset para navegadores antiguos */
+article, aside, details, figcaption, figure,
+footer, header, main, nav, section, summary {
+  display: block;
+}
