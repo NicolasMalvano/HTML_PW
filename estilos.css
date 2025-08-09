@@ -28,6 +28,7 @@
 }
 
 .contacto{
+    margin: 2em 1em 1em 1em;
     color: rgb(255, 255, 255);
     padding: auto;
     border: 2px solid rgb(0, 0, 0) ;
@@ -95,3 +96,60 @@ img{
     justify-content: space-around;
 }
     
+
+/* Estilos para el formulario de contacto */
+
+#titulo_formulario{
+    -webkit-text-stroke: black 2px;
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+    background-image: url('./shutterstock_681809980.jpg');
+    background-size: cover;
+    
+
+}
+
+.formulario{
+    width: 60vw;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 6vw;
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.form_input{
+    width: 50%;
+    margin-top: 1em;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+
+.button{
+    width: 10em;
+    height: 2em;
+    margin-top: 1em;
+    border-radius: 0.5em;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+
+
+}
+
+.button:hover{
+    background-color: rgb(228, 124, 124);
+    color: rgb(255, 255, 255);
+}
+
+.a{  
+    margin: 2em 1em 1em 1em;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: brown;
+    width: fit-content;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}

@@ -8,48 +8,61 @@
     <title>Contacto</title>
 </head>
 <body>
+    
     <header>
-        <h1>Contáctame conmigo</h1>
+        <div class="titulo" id="titulo_formulario"> 
+            <h1>Contáctame conmigo</h1>
+            
+        </div>
 
     </header>
 
     <main>
+        
         <div>
             <h2>Completa el formulario con tus datos</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit quam velit tempora iste molestiae? Enim magnam asperiores voluptatem nulla accusantium perspiciatis unde nesciunt quidem molestiae. Quod quidem reprehenderit magni amet!</p>
+            <p> Conozcamonos a través de la música. Cuéntame sobre tus gustos musicales, como bandas favoritas, canciones que te gustan, etc.</p>
+            <p>¡Espero tu mensaje!</p>
+                 </p>
 
         </div>
 
-        <form>
-            <div>
+        <form class="formulario">
+            <div class="form_input">
 
             <input type="text" name="nombre" placeholder="Nombre" required title="Por favor, ingresa tu nombre">
 
             </div>
 
-            <div>
+            <div class="form_input">
 
             <input type="text" name="apellido" placeholder="Apellido" required title="Por favor, ingresa tu apellido" >
 
-            </div>
+            </div >
 
-            <div>
+            <div class="form_input">
                 <label for="edad"> Edad: </label>
                 <input type="number" name="edad">
 
             </div>
-            
-            <div>
-                <label for="contraseña"> Contraseña: </label>
-                <input type="password" name="contraseña"  >
+    
+            <div class="form_input">
+                
+                <textarea name="music" id="music" placeholder="Música en tu vida"></textarea>
 
             </div>
 
-            <button>ENVIAR</button>
+            <div class="button">
+
+                <button>ENVIAR</button>
+            </div>
 
         </form>
 
-        <h3><a href="C:\Users\User\Desktop\Pagina\index.html">Volver al Home</a></h3>
+        <div class="a"> 
+
+            <h3><a href="C:\Users\User\Desktop\Pagina\index.html">Volver al Home</a></h3>
+        </div>
     
        
 
